@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reinier Estrella Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url('bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      backdrop-filter: blur(10px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .resume-container {
+      display: flex;
+      width: 90%;
+      max-width: 900px;
+      min-height: 1000px;
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .left-section {
+      width: 35%;
+      background-color: #f1f1f1;
+      padding: 25px 20px;
+      text-align: center;
+    }
+
+    .left-section img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 3px solid #000;
+      margin-bottom: 20px;
+    }
+
+    .left-section h3 {
+      font-size: 14px;
+      text-align: left;
+      margin: 15px 0 5px;
+      font-weight: 700;
+      background-color: #ded7d2;
+      padding: 5px 10px;
+      border-left: 4px solid #333;
+      transition: all 0.3s ease;
+    }
+
+    .left-section h3:hover {
+      transform: translateY(-3px);
+    }
+
+    .left-section button {
+      height: 30px;
+      width: 175px;
+      display: block;
+      margin: 20px auto;
+      cursor: pointer;
+      border-radius: 20px;
+      background-color: #ded7d2;
+      font-weight: 700;
+      border: none;
+    }
+
+    .left-section button:hover {
+      color: #eee9e6;
+    }
+
+    .left-section ul {
+      list-style: none;
+      text-align: left;
+      font-size: 13px;
+      line-height: 1.6;
+      padding-left: 0;
+    }
+
+    .left-section p {
+      font-size: 13px;
+      text-align: left;
+      margin: 5px 0;
+    }
+
+    .right-section {
+      width: 65%;
+      padding: 30px 35px;
+    }
+
+    .right-section h1 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #222;
+      margin-bottom: 5px;
+    }
+
+    .right-section h2 {
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      color: #555;
+      transition: all 0.3s ease;
+    }
+
+    .right-section h2:hover {
+      transform: translateY(-3px);
+    }
+
+    .right-section section {
+      margin-top: 25px;
+    }
+
+    .section-title {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      padding: 5px 10px;
+      background-color: #ded7d2;
+      border-left: 4px solid #333;
+      display: inline-block;
+      transition: all 0.3s ease;
+    }
+
+    .section-title:hover {
+      transform: translateY(-3px);
+    }
+
+    .right-section p {
+      font-size: 13px;
+      margin: 4px 0;
+      color: #333;
+    }
+
+    .bold-label {
+      font-weight: 600;
+    }
+
+    .comment-form {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+      text-align: left;
+    }
+
+    .comment-form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .comment-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      resize: vertical;
+    }
+
+    .comment-form button {
+      height: 30px;
+      width: 100px;
+      display: inline-block;
+      cursor: pointer;
+      border-radius: 20px;
+      background-color: #ded7d2;
+      font-weight: 700;
+      border: none;
+    }
+
+    .comment-form button:hover {
+      background-color: #eee9e6;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <div class="left-section">
+      <img src="c:\Users\CMU_QAIAO MARCO\Pictures\Saved Pictures\pengs.jpg" alt="Profile Photo">
+
+      <h3>CONTACT</h3>
+      <p>📞 0970-186-1667</p>
+      <p>📱 reinierjohn12@gmail.com</p>
+      <p>📍 0698 San Felipe Lawy, Capas, Tarlac</p>
+
+      <h3>SKILLS:</h3>
+      <ul>
+        <li>Critical Thinker</li>
+        <li>Can work under pressure</li>
+        <li>Flexible</li>
+        <li>Encoding and filing documents</li>
+        <li>Willing to be trained </li>
+        <li>Good Communication Skills</li>
+      </ul>
+
+      <h3>LANGUAGE</h3>
+      <p>English</p>
+      <p>Filipino</p>
+      <p>Kapampangan<p>
+
+
+      <button type="button">Download Resume</button>
+
+      <form class="comment-form">
+        <label for="comment-text">Leave a Comment.</label>
+        <textarea name="comment-text" id="comment-text" rows="5" placeholder="Type your comment here."></textarea>
+        <button type="submit">Submit</button>
+      </form>
+
+    </div>
+
+    <div class="right-section">
+      <h1>ESTRELLA REINIER JOHN G.</h1>
+      <h2>Bachelor of Science in Information Technology</h2>
+
+      <section>
+        <div class="section-title">OBJECTIVE</div>
+        <p>Seek a position that allows me to assist an organization in fulfilling consumer demands, 
+        where my skills in listening, organizing, and adapting can develop further as I contribute to 
+        success.</p>
+      </section>
+
+      <section>
+        <div class="section-title">PERSONAL INFORMATION:</div>
+        <p><span class="bold-label">Name:</span> Reinier John G. Estrella</p>
+        <p><span class="bold-label">Age:</span> 20</p>
+        <p><span class="bold-label">Height:</span> 5’9</p>
+        <p><span class="bold-label">Weight:</span> 68</p>
+        <p><span class="bold-label">Sex:</span> Male</p>
+        <p><span class="bold-label">Civil Status:</span> Single</p>
+        <p><span class="bold-label">Nationality:</span> Filipino</p>
+        <p><span class="bold-label">Religion:</span> Iglesia Ni Cristo</p>
+      </section>
+
+      <section>
+        <div class="section-title">EDUCATIONAL BACKGROUND:</div>
+        <p><span class="bold-label">Tertiary:</span><br> Dominican College of Tarlac<br> Bachelor of Science in Information Technology (Undergraduate)<br> 2023–Present</p>
+        <p><span class="bold-label">Secondary:</span><br> Lawy National High School<br> Batch 2023<br> Completer</p>
+        <p><span class="bold-label">Primary:</span><br> Dau Homesite Elementary School<br> Batch 2017<br> Completer</p>
+      </section>
+
+      <section>
+        <div class="section-title">REFERENCE</div>
+        <p><span class="bold-label">Mrs. Melanie S. Sibal</span><br>LNHS Teacher III<br>Contact: 0948-955-6867<br>Email: melaniesibal@gmail.com</p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
